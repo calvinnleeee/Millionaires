@@ -1,0 +1,2 @@
+https://nextjs.org/docs/getting-started/installation
+https://nextjs.org/docs/app/building-your-application/routing/defining-routes
