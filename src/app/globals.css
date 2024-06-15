@@ -26,6 +26,28 @@ body {
     rgb(var(--background-start-rgb));
 }
 
+
+/* Colour theme */
+.colour-primary {
+  background-color: #6EC1E4;
+}
+
+.colour-secondary {
+  background-color: #AED581;
+}
+
+.colour-accent {
+  background-color: #FFD54F;
+}
+
+.colour-background {
+  background-color: #E0F7FA;
+}
+
+.colour-text {
+  color: #455A64;
+}
+
 @layer utilities {
   .text-balance {
     text-wrap: balance;

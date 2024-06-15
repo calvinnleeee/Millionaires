@@ -1,8 +1,9 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Montserrat } from "next/font/google";
 import "./globals.css";
 
-const inter = Inter({ subsets: ["latin"] });
+const montserrat = Montserrat({ weight: "500",
+                                subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Millionaires",
@@ -13,7 +14,11 @@ export default function RootLayout(
   { children }: Readonly<{children: React.ReactNode;}>) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <head>
+        {/* <link href="https://css.gg/css" rel="stylesheet" /> */}
+      </head>
+      
+      <body className={montserrat.className}>{children}</body>
     </html>
   );
 }
