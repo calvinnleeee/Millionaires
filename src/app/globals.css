@@ -48,6 +48,23 @@ body {
   color: #455A64;
 }
 
+/*  */
+.stuff {
+  background-color: green;
+}
+
+.logo {
+  background-color: gray;
+  height: 200px;
+  width: 60%;
+  display: block;
+}
+
+.welcome {
+  width: 90%;
+  text-wrap: wrap;
+}
+
 @layer utilities {
   .text-balance {
     text-wrap: balance;

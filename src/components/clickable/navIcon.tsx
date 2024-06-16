@@ -13,7 +13,7 @@ type navProps = {
 
 export default function NavIcon({ text, href, imgLocation } : navProps) {
   return (
-    <div className="my-2 basis-24 text-center items-center hover:grow">
+    <div className="my-2 basis-24 text-center items-center">
       <a
         className="nav-link colour-text"
         href={href}>
