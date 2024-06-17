@@ -50,17 +50,20 @@ body {
 
 /*  */
 .stuff {
-  background-color: green;
+  background-color: black;
 }
 
 .logo {
-  background-color: gray;
-  height: 200px;
-  width: 60%;
+  background-color: whitesmoke;
+  background: 
+    radial-gradient(ellipse at center, rgb(255, 255, 255) 55%, rgba(255, 255, 255, 0) 70%); /* Gradient layer */
+  height: 250px;
+  width: 70%;
   display: block;
+  border-radius: 40%;
 }
 
-.welcome {
+.welcome, .splash-text {
   width: 90%;
   text-wrap: wrap;
 }
