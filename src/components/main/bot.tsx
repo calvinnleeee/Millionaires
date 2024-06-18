@@ -12,11 +12,11 @@ export default function NavigationBar() {
       
         <NavIcon 
           text="Home"
-          href="#"
+          href="/"
           imgLocation="/img/navbar-home.png"/>
         <NavIcon 
           text="Files"
-          href="#"
+          href="/files"
           imgLocation="/img/navbar-files.png"/>
         <NavIcon 
           text="Record"
