@@ -8,7 +8,7 @@ export default function NavigationBar() {
   return (
     <nav>
       <div
-        className="h-24 w-screen flex flex-row absolute bottom-0 content-stretch colour-background">
+        className="bg-slate-500 rounded-t-xl h-20 w-screen flex flex-row absolute bottom-0 content-stretch">
       
         <NavIcon 
           text="Home"

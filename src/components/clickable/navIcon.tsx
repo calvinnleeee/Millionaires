@@ -13,19 +13,19 @@ type navProps = {
 
 export default function NavIcon({ text, href, imgLocation } : navProps) {
   return (
-    <div className="my-2 basis-24 text-center items-center">
+    <div className="my-1 basis-24 text-center items-center">
       <a
-        className="nav-link colour-text"
+        className="nav-link text-white"
         href={href}>
         {/* <div className="gg-home"></div> */}
         <Image 
           className="mx-auto"
           src={imgLocation}
           alt="Navigation icon"
-          width={60}
-          height={60}
+          width={50}
+          height={50}
         />
-      <p className="relative bottom-2">{text}</p>
+      <p className="relative bottom-">{text}</p>
       </a>
     </div>
   );

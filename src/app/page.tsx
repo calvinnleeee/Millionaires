@@ -1,20 +1,21 @@
 import NavigationBar from "../components/main/bot";
 import TopBar from "../components/main/top";
 import Image from "next/image";
+import classes from "./page.module.css";
 
 export default function Home() {
   return (
     <>
-      <div className="container h-screen grid grid-rows-7 gap-0 m-0 p-0">
-        <div className="row-span-1">
+      <div className="bg-slate-500 container h-screen grid grid-rows-10 gap-0 m-0 p-0">
+        <div className="row-span-1 flex place-content-center">
           <TopBar />
         </div>
 
-        <div className="stuff h-full row-span-5 flex flex-col items-center justify-center">
-          <div className="logo mb-5">
+        <div className="h-full row-span-5 flex flex-col items-center justify-center">
+          <div className="mb-5">
             <Image 
               className="mx-auto"
-              src="/img/brain.png"
+              src="/img/artichoke.png"
               alt="Logo"
               width={1170}
               height={896}

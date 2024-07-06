@@ -1,0 +1,18 @@
+/* 
+    https://coolors.co/4a4c29-8f954f-adb460-c8657c-67343f-200f0f-050302-3b1a1b-4d2f30
+    colors:
+    drab dark brown: #4A4C29
+    olivine: #ADB460
+    coffee: #6F4C34
+    blush: #C8657C
+    black
+    licorice: #200F0F
+    black bean: #3B1A1B
+*/
+.section {
+    --main-bg-color: #6F4C34;
+}
+
+.main {
+    background-color: var(--main-bg-color);
+}
